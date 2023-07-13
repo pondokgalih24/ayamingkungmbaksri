@@ -1,0 +1,285 @@
+/* media query */
+@media (max-width: 1440px) {
+}
+@media (max-width: 991px) {
+  /* custom classes */
+  .text-content {
+    width: 100%;
+  }
+  .keunggulan-1 {
+    width: 55%;
+  }
+
+  /* navbrand */
+  .navigation-wrap .navbar-brand img {
+    height: 3.812rem;
+  }
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+  .navigation-wrap .nav-link {
+    line-height: 1.875rem;
+  }
+
+  /* banner design */
+  .top-banner {
+    padding: 9.375rem 0 9.3rem;
+  }
+
+  .white-btn {
+    margin-top: 15px;
+  }
+
+  /* carousel design */
+  .testimonial-section .carousel-item .carousel-caption p {
+    padding: 0;
+  }
+  #faq {
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .paragraph-1 {
+    font-size: 18px;
+  }
+
+  .paragraph-2 {
+    font-size: 16px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  /* custom css classes */
+  h1 {
+    font-size: 2.2rem !important;
+  }
+  h2 {
+    font-optical-sizing: 1.9rem !important;
+    line-height: 2.06rem;
+    font-size: 56px;
+  }
+
+  /* top banner */
+  .top-banner {
+    padding: 7.875rem 0 9.375rem;
+  }
+
+  /* story section */
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+  .white-btn {
+    margin-top: 15px;
+  }
+
+  /* carousel design */
+  .testimonial-section .carousel-item {
+    padding: 11rem 3.125rem;
+  }
+
+  /* newsletter */
+  .newsletter {
+    width: 75%;
+  }
+  .newsletter .main-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  /* footer */
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+  h4.cabang {
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-behind {
+    font-size: 28px;
+  }
+  
+  .text-front {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 330px) {
+  .testimonial-section .carousel-item {
+    padding: 13rem 3.125rem;
+  }
+  .text-behind {
+    font-size: 28px;
+  }
+  
+  .text-front {
+    font-size: 18px;
+  }
+}
+/* cabang style */
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 55%;
+  }
+  .text-behind {
+    font-size: 28px;
+  }
+  
+  .text-front {
+    font-size: 16px;
+  }
+}
+
+/* Style untuk ukuran layar kecil */
+@media (max-width: 576px) {
+  .behind {
+    font-size: 18px;
+  }
+
+  .front {
+    font-size: 14px;
+  }
+
+  .span1 {
+    font-size: 16px;
+  }
+  .keunggulan-1 {
+    position: absolute;
+    font-size: 100px;
+  }
+  .text-behind {
+    font-size: 28px;
+  }
+  
+  .text-front {
+    font-size: 16px;
+  }
+}
+
+/* Style untuk ukuran layar sedang */
+@media (min-width: 577px) and (max-width: 992px) {
+  .behind {
+    font-size: 20px;
+  }
+
+  .front {
+    font-size: 16px;
+  }
+
+  .span1 {
+    font-size: 18px;
+  }
+  .keunggulan-1 {
+    position: absolute;
+    font-size: 100px;
+  }
+  .text-behind {
+    font-size: 28px;
+  }
+  
+  .text-front {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-12 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-link {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .text-behind,
+  .text-front {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 0px;
+    margin: 0px;
+    width: 75%;
+  }
+  .tentang-kami {
+    width: 375px;
+  }
+  .front {
+    order: 1;
+    z-index: 2;
+    color: rgb(18, 18, 18);
+    font-family: Poppins, sans-serif;
+    position: relative;
+    text-align: left;
+    font-size: 28px;
+    padding: 41px;
+    margin: 10px;
+  }
+
+  .behind {
+    order: 2;
+    display: flex;
+    font-family: Poppins;
+    font-size: 141px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2.4px;
+    text-transform: capitalize;
+  }
+  .span11,
+  .span12 {
+    font-size: 14px;
+  }
+  .text-behind {
+    font-size: 20px;
+  }
+  
+  .text-front {
+    font-size: 20px;
+  }
+}
+@media (max-width: 340px) {
+  .penjelasan {
+    margin: 5px;
+    padding: 4px;
+  }
+  .tentang-kami {
+    padding: 20px;
+  }
+  .behind {
+    position: absolute;
+    z-index: 1;
+    color: rgb(242, 242, 242);
+    font-size: 100px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    text-align: left;
+    width: 15cm;
+    height: 1.5cm;
+    padding: 4px;
+  }
+  .front {
+    z-index: 2;
+    color: rgb(18, 18, 18);
+    font-family: Poppins, sans-serif;
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+  }
+}
+/* Style untuk ukuran layar besar */
