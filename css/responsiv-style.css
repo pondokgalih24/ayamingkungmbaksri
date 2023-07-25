@@ -283,3 +283,35 @@
   }
 }
 /* Style untuk ukuran layar besar */
+@media (min-width: 600px) {
+  .container-satu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .lorem {
+    width: 30%;
+  }
+  .container-kami {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 330px) {
+  .container-satu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .lorem {
+    width: 30%;
+  }
+  .container-kami {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-pelanggan {
+    justify-content: space-between;
+    display: flex;
+  }
+}
+
+
